@@ -1,6 +1,5 @@
 # [START django_app]
 runtime: python37
-entrypoint: gunicorn dj_helloworld.wsgi
 
 handlers:
 # This configures Google App Engine to serve the files in the app's static
